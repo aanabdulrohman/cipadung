@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Cipadung</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="asset/img/Screenshot_100-removebg-preview.png" alt="Logo" />
+        </div>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#product">Produk</a></li>
+          <li><a href="#news">Berita</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+
+        <!-- icon -->
+        <div class="navbar-extra">
+          <a href="#" id="search-button"><i data-feather="search"></i></a>
+          <a href="#" id="shopping-cart-button"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+          <a href="#" id="toggle-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- search -->
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="Berita terbaru" />
+          <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+
+        <!-- shopping card start -->
+        <div class="shopping-cart">
+          <div class="cart-item">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+            <div class="item-detail">
+              <h3>Rengginang Ibu Cucu</h3>
+              <div class="item-price">IDR 30K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+            <div class="item-detail">
+              <h3>Kicimpring Imih</h3>
+              <div class="item-price">IDR 20K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+            <div class="item-detail">
+              <h3>Sayuran KWT</h3>
+              <div class="item-price">IDR 15K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+            <div class="item-detail">
+              <h3>Pot dan Bunga Ajoem</h3>
+              <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+        </div>
+        <!-- shopping card end -->
+      </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Pusat informasi barudak RW 05 <span>Cipadung</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsam?
+        </p>
+        <a href="#news" class="info">Cek berita</a>
+      </main>
+    </section>
+    <!-- end hero section -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Tentang kami"
+          />
+        </div>
+        <div class="content">
+          <h3>Barudak cipadung</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            quibusdam pariatur minus! Eaque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+            nulla doloribus quasi ducimus suscipit, soluta accusamus cupiditate
+            quia eligendi. Aspernatur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- umkm section start-->
+    <section class="product" id="product">
+      <h2>Produk UMKM <span>Cipadung</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et,
+        laudantium beatae natus neque consequatur!
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Makanan Khas Cipadung</h3>
+            <div class="product-star">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 25K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Makanan Khas Cipadung</h3>
+            <div class="product-star">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 25K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Makanan Khas Cipadung</h3>
+            <div class="product-star">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 25K</span></div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img
+              src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+              alt="Produk 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Makanan Khas Cipadung</h3>
+            <div class="product-star">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 25K</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- umkm section end-->
+
+    <!-- berita section start-->
+    <section class="berita" id="news">
+      <h2>Berita barudak <span>Cipadung</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates et,
+        laudantium beatae natus neque consequatur!
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Berita barudak"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Lomba badminton rw 05</h3>
+          <p class="menu-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus ab natus explicabo nobis nostrum a iste hic aut repellat?
+          </p>
+          <a href="#"
+            ><input
+              type="button"
+              name="button"
+              id="button"
+              class="button"
+              value="Baca lebih lanjut"
+          /></a>
+        </div>
+        <div class="menu-card">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Berita barudak"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Lomba badminton rw 05</h3>
+          <p class="menu-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus ab natus explicabo nobis nostrum a iste hic aut repellat?
+          </p>
+          <a href="#"
+            ><input
+              type="button"
+              name="button"
+              id="button"
+              class="button"
+              value="Baca lebih lanjut"
+          /></a>
+        </div>
+        <div class="menu-card">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Berita barudak"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Lomba badminton rw 05</h3>
+          <p class="menu-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <a href="#"
+            ><input
+              type="button"
+              name="button"
+              id="button"
+              class="button"
+              value="Baca lebih lanjut"
+          /></a>
+        </div>
+        <div class="menu-card">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Berita barudak"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Lomba badminton rw 05</h3>
+          <p class="menu-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus ab natus explicabo nobis nostrum a iste hic aut repellat?
+          </p>
+          <a href="#"
+            ><input
+              type="button"
+              name="button"
+              id="button"
+              class="button"
+              value="Baca lebih lanjut"
+          /></a>
+        </div>
+        <div class="menu-card">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Berita barudak"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">Lomba badminton rw 05</h3>
+          <p class="menu-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus ab natus explicabo nobis nostrum a iste hic aut repellat?
+          </p>
+          <a href="#"
+            ><input
+              type="button"
+              name="button"
+              id="button"
+              class="button"
+              value="Baca lebih lanjut"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ducimus?
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1978.4876137697233!2d108.5295152578981!3d-7.356673140651583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scipadung%20banjar!5e0!3m2!1sid!2sid!4v1703816871203!5m2!1sid!2sid"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="nama" placeholder="Alex kurniadi" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" name="email" placeholder="alex@gmail.com" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" name="hp" placeholder="089503983706" />
+          </div>
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- end contact section -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#news">Berita</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="#">SoftID.</a> | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- modal box item detail  start-->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img
+            src="asset/img/WhatsApp Image 2021-12-19 at 7.19.30 PM.jpeg"
+            alt="Product 1"
+          />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Provident, tenetur cupiditate facilis obcaecati ullam maiores
+              minima quos perspiciatis similique itaque, esse rerum eius
+              repellendus voluptatibus!
+            </p>
+            <div class="product-star">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              IDR 30K <span class="product-price">IDR 55K</span>
+            </div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box item detail  end-->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- js -->
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>
